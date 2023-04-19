@@ -1,1 +1,3 @@
-# Ejercicio: calculadora con angular
+# Ejercicio: Calculadora
+
+Hecho en Angular usando Bootstrap
