@@ -7,16 +7,19 @@ import { PersonasComponent } from './personas/personas.component';
 import {FormsModule} from "@angular/forms";
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    PersonaComponent,
-    PersonasComponent
-  ],
-  imports: [
-    BrowserModule,
-    FormsModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        PersonaComponent,
+        PersonasComponent
+    ],
+    imports: [
+        BrowserModule,
+        FormsModule
+    ],
+    providers: [],
+    exports: [
+        PersonaComponent
+    ],
+    bootstrap: [AppComponent]
 })
 export class AppModule { }
