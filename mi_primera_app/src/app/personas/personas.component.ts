@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class PersonasComponent {
   deshabilitar: boolean = false;
-  mensaje: string = "No se ha agregado ninguna persona";
+  mensaje: string = "";
   titulo: string = "Ingeniero";
   mostrar: boolean = false;
 
